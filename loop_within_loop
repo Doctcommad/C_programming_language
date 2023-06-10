@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Outer loop
+for ((i=1; i<=3; i++))
+do
+    echo "Outer loop iteration: $i"
+
+    # Inner loop
+    for ((j=1; j<=3; j++))
+    do
+        echo "Inner loop iteration: $j"
+    done
+done
+
